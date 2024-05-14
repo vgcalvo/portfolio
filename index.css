@@ -1,0 +1,27 @@
+:root {
+	color-scheme: light dark;
+
+	@media (prefers-color-scheme: dark) {
+		--theme-color: black;
+		--theme-font-color: white;
+	}
+
+	@media (prefers-color-scheme: light) {
+		--theme-color: white;
+		--theme-font-color: black;
+	}
+}
+
+body {
+	background-color: var(--theme-color);
+	color: var(--theme-font-color);
+	font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+#hero-welcome {
+	font-size: 2.5rem;
+	margin: auto;
+	max-width: 50rem;
+	margin-top: 5rem;
+	width: 87.5%;
+}
