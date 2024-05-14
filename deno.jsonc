@@ -1,0 +1,15 @@
+{
+	"tasks": {
+		"dev": "deno run --watch --allow-net --allow-read server.ts",
+		"format": "deno fmt --use-tabs"
+	},
+	"imports": {
+		"preact": "https://esm.sh/preact@10.21.0",
+		"preact/jsx-runtime": "https://esm.sh/preact/jsx-runtime@10.19.6",
+		"preact-render-to-string": "https://esm.sh/preact-render-to-string@6.4.2?external=preact"
+	},
+	"compilerOptions": {
+	  "jsx": "react-jsx",
+	  "jsxImportSource": "https://esm.sh/preact"
+	}
+}

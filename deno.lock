@@ -1,0 +1,17 @@
+{
+  "version": "3",
+  "redirects": {
+    "https://esm.sh/preact": "https://esm.sh/preact@10.21.0",
+    "https://esm.sh/preact-render-to-string?external=preact": "https://esm.sh/preact-render-to-string@6.4.2?external=preact",
+    "https://esm.sh/preact/jsx-runtime": "https://esm.sh/preact@10.19.6/jsx-runtime"
+  },
+  "remote": {
+    "https://esm.sh/preact-render-to-string@6.4.2?external=preact": "2cb767662acdcf968e91373299cc166e2afb95a58c9166d8735aeb45841302b6",
+    "https://esm.sh/preact@10.19.6/jsx-runtime": "f4c9e5f72ef18435eab846ae02e315a63da724f64fb08d806d2ddeaf08d99bd8",
+    "https://esm.sh/preact@10.21.0": "1076be35bf7395900a20277d85b31e7922d8a8c93d4c09b6924395bd3f87c2fd",
+    "https://esm.sh/stable/preact@10.19.6/denonext/jsx-runtime.js": "97e9eeb40443de53a8cb3b70f264d04db2bbfc5c2298fdb15d1c471283ccd6aa",
+    "https://esm.sh/stable/preact@10.19.6/denonext/preact.mjs": "68491395d287895f4d697e403ded5b0ebb8fed0494f9e870c422bc017e5e52f5",
+    "https://esm.sh/stable/preact@10.21.0/denonext/preact.mjs": "0efdff1e1bade62dff0be7f062f8f6c33f6cec601dde249106bde39b2885eaa7",
+    "https://esm.sh/v135/preact-render-to-string@6.4.2/X-ZS9wcmVhY3Q/denonext/preact-render-to-string.mjs": "65a952db3a928d30540c284a8196c7f4f28be22979b261d47fd17e081eb77c41"
+  }
+}
